@@ -109,6 +109,7 @@
 }
 
 .todolist #dlt_btn {
-
-    /* font-family: 'Open Sans', sans-serif; */
+    padding: 0rem 1rem;
+    margin: 1rem 0rem;
+    font-family: 'Open Sans', sans-serif;
 }
