@@ -34,12 +34,7 @@ deleteBtn.addEventListener("click", (e) => {
     todoList.innerHTML = "";
 });
 
-// cmpltBtn.addEventListener("click", e => {
-//     e.preventDefault();
-//     localStorage.removeItem("todos");
 //     todoList.innerHTML;
-
-// });
 
 // Function to render the todos
 function renderTodos() {
@@ -50,11 +45,10 @@ function renderTodos() {
         const todoCard = document.createElement("div");
         todoCard.setAttribute("class", "todolist");
         todoCard.innerHTML = `
-            <h1>Todo #${index + 1}: ${todo.title}</h1>
-            <p>${todo.desc}</p>
-            <p>Date: ${todo.date}</p>
-            <button onclick="completeTodo(${index})" id="cmpltBtn" class="btn btn-primary">Completed</button>
-            <button onclick="deleteTodo(${index})" class="btn btn-danger">Delete</button>
+            <h1 class="todo_head">${index + 1} : ${todo.title}</h1>
+            <p class="todo_desc">${todo.desc}</p>
+            <p calss="todo_date">Date: ${todo.date}</p>
+            <button onclick="deleteTodo(${index})" class="btn btn-danger" id="dlt_btn">Delete</button>
         `;
         todoList.appendChild(todoCard);
     });
