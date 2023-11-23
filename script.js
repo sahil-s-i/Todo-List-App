@@ -47,7 +47,7 @@ function renderTodos() {
         todoCard.innerHTML = `
             <h1 class="todo_head">${index + 1} : ${todo.title}</h1>
             <p class="todo_desc">${todo.desc}</p>
-            <p calss="todo_date">Date: ${todo.date}</p>
+            <p class="todo_date">Date: ${todo.date}</p>
             <button onclick="deleteTodo(${index})" class="btn btn-danger" id="dlt_btn">Delete</button>
         `;
         todoList.appendChild(todoCard);
