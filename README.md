@@ -20,7 +20,7 @@ This Todo List application allows users to add, manage, and track their daily ta
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/Todo-List-App.git`
+1. Clone the repository: `git clone https://github.com/sahil-s-i/Todo-List-App.git`
 2. Open `index.html` in your browser.
 
 ## Usage
