@@ -14,7 +14,7 @@
     font-size: 2rem;
     text-align: bottom;
     color: #69d5e6;
-    text-shadow: rgb(21, 20, 15) 1px 0 3px;
+    text-shadow: rgb(21, 20, 15) 1px 1 3px;
     font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     position: relative;
@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 4rem;
+    top: .3rem;
 }
 
 .form {
