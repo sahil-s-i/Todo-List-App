@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: .3rem;
+    top: .2rem;
 }
 
 .form {
@@ -35,31 +35,31 @@
 }
 
 .form label {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     color: #6ec0c0;
     position: relative;
-    top: .4rem;
+    top: .3rem;
     font-family: 'Roboto', sans-serif;
 }
 
 .form input {
     outline: none;
     padding: .4rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0em 1em;
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .btn {
-    height: 3rem;
+    height: 2rem;
     background: rgba(170, 231, 234, 0.7);
     border-radius: 7px;
     color: #8d8d8d;
     text-align: center;
     cursor: pointer;
     transition: all 100ms ease-in-out;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0rem 1.5rem;
     margin: 1rem 1.4rem;
     border: 2px solid rgba(170, 231, 234, 0.7);
@@ -75,18 +75,18 @@
 }
 
 .todo_container {
-    width: 100%;
+    width: 101%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    top: 6rem;
+    top: 5rem;
 }
 
 .todolist {
-    border: 2px solid #c8f5f0;
-    border-radius: 12px;
+    border: 1px solid #c8f5f0;
+    border-radius: 11px;
     margin: 1rem .8rem;
     padding: .9rem 1.3rem;
 }
